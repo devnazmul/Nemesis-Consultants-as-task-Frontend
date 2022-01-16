@@ -21,7 +21,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const url = "https://secure-lowlands-09933.herokuapp.com/api/auth";
+            const url = "https://damp-shore-51847.herokuapp.com/api/auth";
             const { data: res } = await axios.post(url, data);
             localStorage.setItem('token', res.data);
             swal({ title: "LogIn Successfull!", icon: "success" });

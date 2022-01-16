@@ -4,7 +4,7 @@ const UseFormTable = ({ data, handleDeletUser }) => {
     const { _id, username, mobile, email, address } = data;
     return (
         <>
-            <tr className='bg-gray-100 h-10 shadow-lg border-none rounded-lg'>
+            <tr className='bg-gray-100 h-5 shadow-lg border-none rounded-lg'>
                 <td className="pl-3 rounded-lg border-b border-slate-200 ">{username}</td>
                 <td className="pl-3  border-b border-slate-200 ">{mobile}</td>
                 <td className="pl-3  border-b border-slate-200 ">{email}</td>
